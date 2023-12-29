@@ -1,0 +1,114 @@
+@font-face {
+  font-family: my-font;
+  src: url("Maputo.ttf");
+}
+@font-face {
+  font-family: my-font2;
+  src: url("Roboto-CondensedItalic.ttf");
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+* {
+  border: border-box;
+  font-family: my-font2;
+  margin: 0px;
+}
+
+.nav_top {
+  height: 50px;
+  width: cover;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.lang {
+  display: flex;
+  justify-content: space-evenly;
+}
+i {
+  font-size: 1.4rem;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+select {
+  background-color: black;
+  color: white;
+  border: none;
+}
+a::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  margin-left: 20px;
+  background: #ffffff40;
+}
+.select {
+  width: 100px;
+}
+.div-select {
+  width: 350px;
+}
+.abc {
+  display: flex;
+  align-items: center;
+}
+.abc:hover {
+  height: 45px;
+  border-radius: 2px;
+  border: 2px solid white;
+}
+
+/*-------------------------------------------------------------second navbar----------------------------------------------------------*/
+.cover {
+  background-image: url("cover.png");
+  background-repeat: no-repeat;
+  height: 340px;
+  width: cover;
+  color: rgb(211, 197, 224);
+}
+.sec-nav {
+  height: 90px;
+  width: 1170px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+}
+.penin {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+.second {
+  width: 40%;
+  padding-left: 40%;
+}
+.manila {
+  font-size: 0.6rem;
+  color: rgb(166, 179, 192);
+  letter-spacing: 0.5rem;
+  padding-top: 5px;
+}
+button {
+  height: 50px;
+  width: 150px;
+  background-color: chocolate;
+
+  color: bisque;
+  border: 1px solid brown;
+}
+.space {
+  width: 25%;
+  padding-left: 10%;
+}
+.contact {
+  width: 15%;
+  padding-top: 15px;
+  align-items: flex-end;
+}
